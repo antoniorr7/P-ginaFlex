@@ -1,0 +1,111 @@
+/* PRINCIPALES*/
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Estilos para el contenedor de navegación */
+  nav {
+    display: flex;
+    /* Utilizamos Flexbox para un diseño flexible y responsivo */
+    justify-content: space-between;
+    /* Colocamos los elementos a los extremos del contenedor */
+    align-items: center;
+    /* Centramos verticalmente los elementos */
+    background-color: #333;
+    /* Color de fondo del menú */
+    color: white;
+    /* Color del texto */
+    padding: 1rem;
+    /* Espaciado interior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+  }
+  
+  /* Estilos para la lista de elementos del menú */
+  nav ul {
+    list-style-type: none;
+    /* Quitamos los estilos de lista */
+    display: flex;
+    /* Mostramos los elementos en línea */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para cada elemento de la lista del menú */
+  nav li {
+    margin-right: 1.5rem;
+    /* Espacio entre elementos */
+    font-size: 1.1rem;
+    /* Tamaño de fuente */
+    transition: color 0.3s ease;
+    /* Transición suave para el cambio de color */
+  }
+  
+  /* Estilos para los enlaces dentro del menú */
+  nav a {
+    text-decoration: none;
+    /* Quitamos el subrayado del enlace */
+    color: white;
+    /* Color del texto */
+    transition: color 0.3s ease;
+    /* Transición suave para el cambio de color */
+  }
+  
+  /* Cambio de color al pasar el ratón por encima de los enlaces */
+  nav a:hover {
+    color: #ffc107;
+    /* Color de resalte al pasar el ratón */
+  }
+  
+  /* Cambio de color al pasar el ratón por encima de los elementos de la lista */
+  nav li:hover {
+    color: #ffc107;
+    /* Color de resalte al pasar el ratón */
+  }
+  
+  /********************************************************/
+  /* Estilos para el contenedor de información */
+  .contenedor {
+    display: flex; /* Contenedor flexible */
+    flex-direction: column; /* Apila elementos flexibles verticalmente */
+    align-items: center; /* Centra los elementos flexibles horizontalmente */
+    padding: 2%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-top: 2%; /* Margen en la parte superior */
+  }
+  
+  #contenedorP {
+    display: flex; /* Contenedor flexible */
+    justify-content: center; /* Centra los elementos flexibles horizontalmente */
+    align-items: center; /* Centra los elementos flexibles verticalmente */
+    flex-direction: column; /* Apila elementos flexibles verticalmente */
+  }
+  
+  .contenedor p {
+    text-align: center; /* Centra el texto */
+  }
+  
